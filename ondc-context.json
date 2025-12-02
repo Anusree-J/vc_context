@@ -3,9 +3,10 @@
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
+        "type": "@type",
         "schema": "https://schema.org/",
         "ONDCFastMovingProduct": {
-            "@id": "https://raw.githubusercontent.com/Anusree-J/vc_context/main/ondc-context.json#ONDCFastMovingProduct",
+            "@id": "https://anusree-j.github.io/vc_context/ondc-context.json#ONDCFastMovingProduct",
             "@context": {
                 "@version": 1.1,
                 "id": "@id",
@@ -14,6 +15,31 @@
                 "brandName": "schema:Text",
                 "modelNumber": "schema:Text",
                 "salesVelocity": "schema:Text",
+                "certifyingAuthority": "schema:Text"
+            }
+        },
+        "ONDCFiveStarSeller": {
+            "@id": "https://anusree-j.github.io/vc_context/ondc-context.json#ONDCFiveStarSeller",
+            "@context": {
+                "@version": 1.1,
+                "id": "@id",
+                "sellerName": "schema:Text",
+                "sellerId": "schema:Text",
+                "rating": "schema:Text",
+                "totalOrders": "schema:Text",
+                "completionRate": "schema:Text",
+                "certifyingAuthority": "schema:Text"
+            }
+        },
+        "ONDCRegisteredBuyerApp": {
+            "@id": "https://anusree-j.github.io/vc_context/ondc-context.json#ONDCRegisteredBuyerApp",
+            "@context": {
+                "@version": 1.1,
+                "id": "@id",
+                "appName": "schema:Text",
+                "appId": "schema:Text",
+                "registrationDate": "schema:Text",
+                "appCategory": "schema:Text",
                 "certifyingAuthority": "schema:Text"
             }
         }

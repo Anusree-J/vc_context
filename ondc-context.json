@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "ONDCFastMovingProduct": {
+      "@id": "schema:Product",
+      "@context": {
+        "productName": "schema:name",
+        "productCategory": "schema:category",
+        "brandName": "schema:brand",
+        "modelNumber": "schema:model",
+        "salesVelocity": "schema:additionalProperty",
+        "certifyingAuthority": "schema:issuedBy"
+      }
+    },
+    "ONDCFiveStarSeller": {
+      "@id": "schema:Organization",
+      "@context": {
+        "sellerName": "schema:name",
+        "sellerId": "schema:identifier",
+        "rating": "schema:aggregateRating",
+        "totalOrders": "schema:additionalProperty",
+        "certifyingAuthority": "schema:issuedBy"
+      }
+    },
+    "ONDCRegisteredBuyerApp": {
+      "@id": "schema:SoftwareApplication",
+      "@context": {
+        "appName": "schema:name",
+        "appId": "schema:identifier",
+        "registrationDate": "schema:datePublished",
+        "certifyingAuthority": "schema:issuedBy"
+      }
+    }
+  }
+}

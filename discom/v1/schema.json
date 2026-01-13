@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://anusree-j.github.io/vc_context/discom/v1/schema.json",
-    "title": "Discom Consumer Credential Schema",
-    "description": "JSON Schema for verifying Discom (Distribution Company) Consumer Credentials issued by electricity distribution companies in India",
+    "title": "Consumer Profile Onboarding Credential Schema",
+    "description": "JSON Schema for verifying Consumer Profile Onboarding Credentials issued by electricity distribution companies in India",
     "type": "object",
     "required": [
         "@context",
@@ -35,7 +35,7 @@
                 "type": "string"
             },
             "contains": {
-                "const": "DiscomConsumerCredential"
+                "const": "ConsumerProfileOnboardingCredential"
             },
             "minItems": 2
         },

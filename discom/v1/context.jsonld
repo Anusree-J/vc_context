@@ -8,8 +8,8 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "discom": "https://anusree-j.github.io/vc_context/discom/v1/context.jsonld#",
 
-        "DiscomConsumerCredential": {
-            "@id": "discom:DiscomConsumerCredential",
+        "ConsumerProfileOnboardingCredential": {
+            "@id": "discom:ConsumerProfileOnboardingCredential",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,

@@ -1,0 +1,25 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "GenerationProfileCredential": {
+            "@id": "https://anusree-j.github.io/vc_context/energy/generation-profile-context.json#GenerationProfileCredential",
+            "@context": {
+                "@version": 1.1,
+                "id": "@id",
+                "consumerNumber": "schema:Text",
+                "fullName": "schema:Text",
+                "generationType": "schema:Text",
+                "capacityKW": "schema:Text",
+                "commissioningDate": "schema:Text",
+                "meterNumber": "schema:Text",
+                "assetId": "schema:Text",
+                "equipmentManufacturer": "schema:Text",
+                "equipmentModel": "schema:Text"
+            }
+        }
+    }
+}

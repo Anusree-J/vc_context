@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "StorageProfileCredential": {
+            "@id": "https://anusree-j.github.io/vc_context/energy/storage-profile-context.json#StorageProfileCredential",
+            "@context": {
+                "@version": 1.1,
+                "id": "@id",
+                "consumerNumber": "schema:Text",
+                "fullName": "schema:Text",
+                "storageType": "schema:Text",
+                "storageCapacityKWh": "schema:Text",
+                "powerRatingKW": "schema:Text",
+                "commissioningDate": "schema:Text",
+                "meterNumber": "schema:Text",
+                "assetId": "schema:Text"
+            }
+        }
+    }
+}

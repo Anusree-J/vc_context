@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "ConsumptionProfileCredential": {
+            "@id": "https://anusree-j.github.io/vc_context/energy/consumption-profile-context.json#ConsumptionProfileCredential",
+            "@context": {
+                "@version": 1.1,
+                "id": "@id",
+                "consumerNumber": "schema:Text",
+                "fullName": "schema:Text",
+                "premisesType": "schema:Text",
+                "connectionType": "schema:Text",
+                "sanctionedLoadKW": "schema:Text",
+                "tariffCategoryCode": "schema:Text",
+                "meterNumber": "schema:Text"
+            }
+        }
+    }
+}

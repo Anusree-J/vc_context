@@ -9,10 +9,11 @@
             "@context": {
                 "@version": 1.1,
                 "id": "@id",
+                "issuerName": "schema:Text",
                 "consumerNumber": "schema:Text",
                 "fullName": "schema:Text",
                 "maskedIdNumber": "schema:Text",
-                "installationAddress": "schema:Text",
+                "fullAddress": "schema:Text",
                 "meterNumber": "schema:Text",
                 "serviceConnectionDate": "schema:Text"
             }

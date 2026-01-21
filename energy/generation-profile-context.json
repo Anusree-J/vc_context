@@ -9,6 +9,7 @@
             "@context": {
                 "@version": 1.1,
                 "id": "@id",
+                "issuerName": "schema:Text",
                 "consumerNumber": "schema:Text",
                 "fullName": "schema:Text",
                 "generationType": "schema:Text",
@@ -16,8 +17,8 @@
                 "commissioningDate": "schema:Text",
                 "meterNumber": "schema:Text",
                 "assetId": "schema:Text",
-                "equipmentManufacturer": "schema:Text",
-                "equipmentModel": "schema:Text"
+                "manufacturer": "schema:Text",
+                "modelNumber": "schema:Text"
             }
         }
     }

@@ -9,7 +9,7 @@
             "@id": "https://www.w3.org/2018/credentials#credentialStatus",
             "@type": "@id"
         },
-        "RevocationList2020Status": "https://w3id.org/vc-revocation-list-2020#RevocationList2020Status",
+        "dediregistry": "https://dedi.global/dedi/query#dediregistry",
         "GenerationProfileCredential": {
             "@id": "https://anusree-j.github.io/vc_context/energy/generation-profile-context.json#GenerationProfileCredential",
             "@context": {

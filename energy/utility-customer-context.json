@@ -9,7 +9,7 @@
             "@id": "https://www.w3.org/2018/credentials#credentialStatus",
             "@type": "@id"
         },
-        "RevocationList2020Status": "https://w3id.org/vc-revocation-list-2020#RevocationList2020Status",
+        "dediregistry": "https://dedi.global/dedi/query#dediregistry",
         "UtilityCustomerCredential": {
             "@id": "https://anusree-j.github.io/vc_context/energy/utility-customer-context.json#UtilityCustomerCredential",
             "@context": {

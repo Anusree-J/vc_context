@@ -3,7 +3,13 @@
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
+        "type": "@type",
         "schema": "https://schema.org/",
+        "credentialStatus": {
+            "@id": "https://www.w3.org/2018/credentials#credentialStatus",
+            "@type": "@id"
+        },
+        "RevocationList2020Status": "https://w3id.org/vc-revocation-list-2020#RevocationList2020Status",
         "GenerationProfileCredential": {
             "@id": "https://anusree-j.github.io/vc_context/energy/generation-profile-context.json#GenerationProfileCredential",
             "@context": {
